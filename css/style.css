@@ -1,0 +1,158 @@
+{
+    margin:0;
+    padding: 0; 
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family:'Quicksand', sans-serif;
+    font-size: 100%;
+    margin: 0 auto;
+    width: 900px;
+}
+
+
+header {
+    background-color: #FFF;
+    background-size: 100% 100%;
+    min-height: 10 px;
+    padding: 0px;
+}
+
+h1 {
+    color: #000 ;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+    font-size: 2.1875em;
+    padding: 10px;
+}
+
+main {
+    background-color: #FFF;
+    float: right;
+    min-height: 600px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 600px;
+}
+
+.active {
+    background-color: #AE1293;
+}
+
+nav {
+    background-color:#0DD693;
+    float:left;
+    min-height: 100px;
+    text-decoration-color: #000;
+    text-decoration: none;
+    position: fixed;
+    width: 200px;
+}
+
+nav ul {
+    background-color:#0DD693;
+    list-style-type: none;
+    text-align: left;
+    text-decoration: none;
+}
+
+nav li {
+    display: block;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a:link {
+    color: #000;
+}
+
+a:hover {
+    color: #E45ECD;
+}
+
+a:visited {
+    color: #000;
+}
+
+article {
+    float: right;
+/*    padding-bottom: 20px; */
+    padding-right: 125px;
+    
+}
+
+
+h2 {
+    background-color:#213D34;
+    color: #FFF;
+    font-family:'Abril Fatface', cursive;
+    font-size: 1.75em;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+h3 {
+    background-color:#E45ECD;
+    color: #FFF;
+    font-family:'Abril Fatface', cursive;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+p {
+    background-color:#E45ECD;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px; 
+    padding-right: 40px; 
+}
+
+.div1 {
+    border: 0px #FFF;
+/*    z-index: 3;*/
+}
+
+.sunflower {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+    text-align: right; 
+    float: right;
+    z-index: 1;
+}
+
+.moodboard {
+    float: inherit;
+    padding: 
+}
+
+.gallery figure {
+    float: left;
+    height: 175px; 
+    margin: 20px, 
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+    }
+
+footer {
+    text-align: center;
+    width: 900px;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    clear: both;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Jessica Roses Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand" rel="stylesheet"> 
+</head>
+    
+<style>
+        #div1 {
+            width: 500px;
+            height: 250px;
+            padding: 10px;
+            border: 1px solid #aaaaaa;
+        }
+        
+        #div2 {
+            width: 500px;
+            height: 250px;
+            padding: 10px;
+            border: 1px solid #aaaaaa;
+        }
+
+</style>
+   
+<script>
+              function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("text");
+            ev.target.appendChild(document.getElementById(data));
+        
+        }
+
+    </script>
+    
+<body>
+    <header>
+        <a><h1>Jessica Roses Portfolio</h1></a>
+            <nav>
+                <ul>
+                <li><a class=".navlinks" href="index.html">Home</a></li>
+                <li><a class=".navlinks" href="illustration.html">Illustration</a></li>
+                <li><a class=".navlinks" href="moodboard.html">Moodboard</a></li>
+                <li><a class=".navlinks" href="hedgehog.html">Hedgehog</a></li>
+                <li><a class=".navlinks" href="about.html">About</a></li>
+                <li><a class=".navlinks" href="contact.html">Contact</a></li>
+                </ul>
+        </nav>
+    
+    </header>
+    
+    <div class="wrapper">
+    <article>
+   <img src="img/text.png" width="350"></article></div>
+    
+<!--
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <br>
+-->
+    
+    <article>
+    <img id="div1" src="img/hedgehog.png" draggable="true" ondrop="drop(event)" ondragstart="drag(event)" ondragover="allowDrop(event)" z-index:1;></article>
+    
+    
+
+<!--
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+    <br>
+    <img src="img/text.png">
+    
+-->
+    <article>
+    <img id="sunflower" src="img/sunflower.png" ondrop="drop(event)" ondragover="allowDrop(event)" width="700" z-index:2;></article>
+    
+   
+    <footer>&copy; Jessica Roses 2017</footer>
+
+
+</body>
+
+
+
+</html>
